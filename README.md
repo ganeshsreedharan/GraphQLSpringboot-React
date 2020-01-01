@@ -1,2 +1,2 @@
 # GraphQLSpringboot-React
-A Sample project with Springboot + graphql
+A Sample project with Springboot + graphql + React
