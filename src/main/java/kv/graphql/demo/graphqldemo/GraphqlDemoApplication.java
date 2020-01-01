@@ -14,12 +14,6 @@ public class GraphqlDemoApplication {
 		SpringApplication.run(GraphqlDemoApplication.class, args);
 	}
 
-	@Bean
-	public SchemaParserDictionary schemaParserDictionary() {
-		SchemaParserDictionary dict = new SchemaParserDictionary();
-		dict.add("Book", Book.class);
-		dict.add("Author", Author.class);
-		return dict;
-	}
+
 
 }
