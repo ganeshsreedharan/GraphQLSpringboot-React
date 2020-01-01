@@ -24,6 +24,8 @@ dependencies {
 	}
 }
 
+processResources.dependsOn('frontend:build')
+
 test {
 	useJUnitPlatform()
 }

@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class GraphqlDemoApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
